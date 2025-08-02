@@ -7,16 +7,6 @@ Challenge Telecom X Parte 2
 
 El objetivo principal de este proyecto es **predecir la cancelación (churn) de clientes** en Telecom X utilizando variables relevantes extraídas y preparadas a partir de la base de datos original. Esta predicción busca ayudar a la empresa a identificar clientes con riesgo de abandono para tomar medidas preventivas y mejorar la retención.
 
----
-
-## Estructura del Proyecto
-
-- `TelecomX_Parte2_Analisis.ipynb`: Cuaderno principal donde se desarrolla todo el análisis, desde la preparación de los datos, exploración, modelización y evaluación.
-- `telecomx_cleaned.csv`: Archivo CSV con los datos tratados y limpios, conteniendo sólo columnas relevantes y formatos estandarizados para facilitar el modelado.
-- `/visualizaciones/`: Carpeta que contiene gráficos y visualizaciones generados durante el análisis exploratorio y presentación de resultados.
-
----
-
 ## Proceso de Preparación de Datos
 
 1. **Clasificación de variables:**
@@ -95,15 +85,7 @@ text
 
 ### Carga de Datos Tratados
 
-Si tienes el archivo `telecomx_cleaned.csv`, asegúrate de colocarlo en el directorio raíz del proyecto. En el cuaderno simplemente carga con:
-
-import pandas as pd
-
-df = pd.read_csv('telecomx_cleaned.csv')
-
-text
-
-En caso de no tener el CSV, el cuaderno incluye el código para descargar y preparar los datos desde el JSON público, realizar la limpieza y generación del CSV.
+ el cuaderno incluye el código en formato raw :https://raw.githubusercontent.com/ingridcristh/challenge2-data-science-LATAM/main/TelecomX_Data.json para descargar y preparar los datos desde el JSON público, realizar la limpieza y generación del CSV.
 
 ### Ejecución
 
@@ -116,6 +98,5 @@ Este proyecto busca ser claro y reproducible para apoyar la toma de decisiones e
 
 ---
 
-Si tienes dudas o quieres profundizar en alguna sección, aquí estoy para ayudarte.
 
 ¡Gracias por revisar este trabajo!
