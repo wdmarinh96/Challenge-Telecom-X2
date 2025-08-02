@@ -1,5 +1,3 @@
-# Challenge-Telecom-X2
-Challenge Telecom X Parte 2
 
 # Telecom X - Parte 2: Predicción de Cancelación de Clientes (Churn)
 
